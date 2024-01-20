@@ -16,7 +16,7 @@
       system.stateVersion = "23.11";
     };
     configuration-hydra-service = {...}: {
-      # services.hydra.enable = true;
+      services.hydra.enable = true;
       services.hydra.hydraURL = "http://nonexistent/";
       services.hydra.notificationSender = "hydra@localhost";
     };
